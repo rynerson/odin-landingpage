@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  background: #084921;
+  font-family: 'Roboto','Arial', sans-serif;
+  color:white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.dulce{
+    width:540px;
+    height:auto;
+    flex-shrink: 0;
+    margin-right:100px;
+    margin-bottom:50px;
+
+}
+.my_images{
+    width:250px;
+    height:auto;
+    border-color: #106631;
+    border-style: solid;
+    border-radius: 20px;
+
+   
+
+}
+
+.header {
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:8px;
+  margin-bottom:50px;
+}
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: white;
+ 
+  
+}
+ul {
+  list-style-type: none;
+  display:flex;
+  margin:5px;
+  padding:0;
+  gap:16px;
+  margin-left:auto;
+  font-size:18px;
+  margin-right:100px;
+}
+.logo{
+    font-size:24px;
+    color: #F9FAF8;
+    margin-left:100px;
+}
+.hero{
+    display:flex;
+   
+    
+
+}
+/*this establishes the flexbox grouping the h1, paragraph, and button together*/
+.intro{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+h1{
+    margin-left:100px;
+    margin-bottom:0px;
+}
+/*some styling for the introduction paragraph*/
+.intro_p{
+    margin-left:100px;
+    margin-right:50px;
+}
+/*This is the styling for the first button seen on the website */
+.signup{
+    background-color:rgb(62, 218, 121);
+    color:white;
+    width:150px;
+    height:50px;
+    border-radius: 10px;
+    margin-left:100px;
+    border-color:rgb(62, 218, 121);
+    
+
+}
+/*styles the random information section and creates a flexbox for it */
+.random_info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color:#084921;
+    padding-bottom:50px;
+
+   
+}
+/*creates a flexbox for the image gallery*/
+.image_gal{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+   
+}
+/*Some styling for the paragraphs under each of the images*/
+.image_par{
+    max-width:250px;
+    margin-right:50px;
+   
+    
+}
+.text{
+    text-align:center;
+}
+/*This stylizes the quote on the page*/
+.quote{
+    display:flex;
+    padding:50px;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content:space-around;
+    justify-content:center;
+    background-color:rgb(235, 162, 68);
+    font-size:36px;
+    font-weight:900;
+}
+/*Make the quote text italic and keep the max width within 800px*/
+.quote_text{
+    max-width:800px;
+    font-style:italic;
+}
+/*some styling for the author's signature*/
+.signature{
+    color:rgb(0, 0, 0);
+    align-self:flex-end;
+}
+
+.call_to_action{
+    background-color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+.blue_box{
+    background-color:rgb(53, 106, 175);
+    width:800px;
+    height:100px;
+    padding:20px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+
+}
+/*make a flexbox to hold the two paragraphs in the blue box*/
+.statements{
+    display:flex;
+    flex-direction:column;
+}
+/*This is styling for the button in the blue box*/
+.cta_btn{
+    border-style:1px solid white;
+    background-color:rgb(53, 106, 175);
+    color:white;
+    border-radius:20px;
+    padding:10px 20px 10px 20px;
+}
+/*Styling for the first line in the blue box*/
+#its_time{
+    font-weight:bold;
+    font-size:32px;
+}
+/*make a flexbox for the footer*/
+.footer{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
